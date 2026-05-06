@@ -73,7 +73,7 @@
 &kp CAPS      &kp A           &kp S            &kp D           &kp F      &kp G                  &kp H      &kp J      &kp K          &kp L    &kp SEMI   &kp APOS         &kp ENTER     &kp PG_DN                        &kp G
 &kp LSHFT     &kp Z           &kp X            &kp C           &kp V      &kp B                  &kp N      &kp M      &kp COMMA      &kp DOT  &kp FSLH   &kp RIGHT_SHIFT  &kp UP_ARROW  &kp END                          &kp B
 &kp LCTRL     &kp LEFT_GUI    &kp LEFT_ALT     &mo 1                      &kp SPACE                         &kp SPACE  &kp RIGHT_ALT  &mo 2    &kp RCTRL  &kp LEFT         &kp DOWN      &kp RIGHT                        &kp SPACE
-&kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp ENTER  &kp SPACE              &mkp LCLK  &mkp LCLK  &mkp RCLK      &none
+&kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp C_MUTE  &kp SPACE              &mkp LCLK  &mkp LCLK  &mkp RCLK      &none
             >;
 
             label = "layer0";
@@ -105,7 +105,7 @@
             >;
 
             label = "layer2";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
