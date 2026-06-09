@@ -163,9 +163,9 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRI
+  - RGB ON
+  - RGB OFF
   - RGB BRD
-  - RGB ON
-  - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -249,9 +249,9 @@ layers:
   - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB HUI
-  - RGB HUD
   - RGB SAI
   - RGB SAD
+  - RGB HUD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
